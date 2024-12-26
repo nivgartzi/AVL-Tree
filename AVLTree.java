@@ -7,7 +7,7 @@ public class AVLTree
   public IAVLNode min;
   public IAVLNode external_leaf = new AVLNode(-1, null);
 
-  public AVLTree()  //first constructor.
+  public AVLTree()  //first constructor
   { 
 	this.external_leaf.set_size(0);
 	this.external_leaf.setHeight(-1);
